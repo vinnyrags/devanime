@@ -7,7 +7,7 @@
             "name": "Vincent Ragosta",
             "email": "vincentpasqualeragosta@gmail.com",
             "homepage": "https://www.vincentragosta.io"
-        },
+        }
     ],
     "autoload": {
         "psr-4": {
@@ -18,3 +18,4 @@
         "php": ">=8.2"
     }
 }
+
