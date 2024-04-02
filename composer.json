@@ -1,7 +1,6 @@
 {
     "name": "vinnyrags/devanime",
-    "description": "The backend Wordpress parent theme built on top of Visual Composer. Used to support 
-all future builds.",
+    "description": "The backend Wordpress parent theme built on top of Visual Composer. Used to support all future builds.",
     "type": "wordpress-plugin",
     "license": "GPL-3.0",
     "require": {}
