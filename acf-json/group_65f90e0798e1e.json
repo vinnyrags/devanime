@@ -1,0 +1,1158 @@
+{
+    "key": "group_65f90e0798e1e",
+    "title": "Configuration Settings",
+    "fields": [
+        {
+            "key": "field_65f90e7c53fd0",
+            "label": "Colors",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65f90ebb53fd1",
+            "label": "Primary",
+            "name": "color_primary",
+            "type": "color_picker",
+            "instructions": "Set the primary color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": "color-primary"
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91a3553fd3",
+            "label": "Primary Light",
+            "name": "color_primary_light",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% lighter than primary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91aa353fd4",
+            "label": "Primary Dark",
+            "name": "color_primary_dark",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% darker than primary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f90ee153fd2",
+            "label": "Secondary",
+            "name": "color_secondary",
+            "type": "color_picker",
+            "instructions": "Set the secondary color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": "color-secondary"
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91b2853fd6",
+            "label": "Secondary Light",
+            "name": "color_secondary_light",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% lighter than secondary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91b4053fd7",
+            "label": "Secondary Dark",
+            "name": "color_secondary_dark",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% darker than secondary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91df096ff5",
+            "label": "Tertiary",
+            "name": "color_tertiary",
+            "type": "color_picker",
+            "instructions": "Set a tertiary color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91e4e96ff6",
+            "label": "Tertiary Light",
+            "name": "color_tertiary_light",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% lighter than tertiary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91e5896ff7",
+            "label": "Tertiary Dark",
+            "name": "color_tertiary_dark",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% darker than tertiary.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91e8a07793",
+            "label": "Gray",
+            "name": "color_gray",
+            "type": "color_picker",
+            "instructions": "Set the gray color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91ea907794",
+            "label": "Gray Light",
+            "name": "color_gray_light",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% lighter than gray.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91eb707795",
+            "label": "Gray Dark",
+            "name": "color_gray_dark",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% darker than gray.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91f7615d5d",
+            "label": "White",
+            "name": "color_white",
+            "type": "color_picker",
+            "instructions": "Set the white color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91f3315d5c",
+            "label": "Off White",
+            "name": "color_off_white",
+            "type": "color_picker",
+            "instructions": "If left empty, this color will be 10% lighter than white.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f91f9315d5e",
+            "label": "Black",
+            "name": "color_black",
+            "type": "color_picker",
+            "instructions": "Set the black color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "enable_opacity": 0,
+            "return_format": "string"
+        },
+        {
+            "key": "field_65f92f8e06cca",
+            "label": "Spacing",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65f92f9406ccb",
+            "label": "Layout Spacing",
+            "name": "spacing_layout",
+            "type": "number",
+            "instructions": "Set the space between components.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_65f9300506ccc",
+            "label": "Component Spacing",
+            "name": "spacing_component",
+            "type": "number",
+            "instructions": "Set the spacing between elements within a component. If empty, will default to half of layout spacing.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_65f9e8508030f",
+            "label": "Container",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65f931684324c",
+            "label": "Container Max Width",
+            "name": "container_max_width",
+            "type": "number",
+            "instructions": "Set the container max-width. If empty, will default to breakpoint-lg (1200px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": 5
+        },
+        {
+            "key": "field_65f931874324d",
+            "label": "Container Wide Width",
+            "name": "container_wide_width",
+            "type": "number",
+            "instructions": "Set the container wide width. If empty, will default to breakpoint-xl (1400px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_65f931a44324e",
+            "label": "Container Narrow Width",
+            "name": "container_narrow_width",
+            "type": "number",
+            "instructions": "Set the container narrow width. If empty, will default to breakpoint-md (992px).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_65f9dcbb25f79",
+            "label": "Body",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65f9dcc125f7a",
+            "label": "Body Color",
+            "name": "body_color",
+            "type": "select",
+            "instructions": "Set the body copy color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Primary",
+                "primary-light": "Primary Light",
+                "primary-dark": "Primary Dark",
+                "secondary": "Secondary",
+                "secondary-light": "Secondary Light",
+                "secondary-dark": "Secondary Dark",
+                "tertiary": "Tertiary",
+                "tertiary-light": "Tertiary Light",
+                "tertiary-dark": "Tertiary Dark",
+                "gray": "Gray",
+                "gray-light": "Gray Light",
+                "gray-dark": "Gray Dark",
+                "white": "White",
+                "off-white": "Off White",
+                "black": "Black"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_65f9dd9c25f7b",
+            "label": "Color Inverted",
+            "name": "body_color_inverted",
+            "type": "select",
+            "instructions": "Set the body copy inverted color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Primary",
+                "primary-light": "Primary Light",
+                "primary-dark": "Primary Dark",
+                "secondary": "Secondary",
+                "secondary-light": "Secondary Light",
+                "secondary-dark": "Secondary Dark",
+                "tertiary": "Tertiary",
+                "tertiary-light": "Tertiary Light",
+                "tertiary-dark": "Tertiary Dark",
+                "gray": "Gray",
+                "gray-light": "Gray Light",
+                "gray-dark": "Gray Dark",
+                "white": "White",
+                "off-white": "Off White",
+                "black": "Black"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_65f9df5fecbd8",
+            "label": "Background Color",
+            "name": "body_bg_color",
+            "type": "select",
+            "instructions": "Set the body background color.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Primary",
+                "primary-light": "Primary Light",
+                "primary-dark": "Primary Dark",
+                "secondary": "Secondary",
+                "secondary-light": "Secondary Light",
+                "secondary-dark": "Secondary Dark",
+                "tertiary": "Tertiary",
+                "tertiary-light": "Tertiary Light",
+                "tertiary-dark": "Tertiary Dark",
+                "gray": "Gray",
+                "gray-light": "Gray Light",
+                "gray-dark": "Gray Dark",
+                "white": "White",
+                "off-white": "Off White",
+                "black": "Black"
+            },
+            "default_value": false,
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_65f9e074c96c2",
+            "label": "Font Size",
+            "name": "body_font_size",
+            "type": "number",
+            "instructions": "Set the body font size.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "em",
+            "min": "",
+            "max": "",
+            "step": ".1"
+        },
+        {
+            "key": "field_65f9e926b3900",
+            "label": "Headings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65fa030bb3902",
+            "label": "Default Font Size",
+            "name": "heading_default",
+            "type": "group",
+            "instructions": "Set the default heading minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa0363b3903",
+                    "label": "Minimum",
+                    "name": "min",
+                    "type": "number",
+                    "instructions": "If empty 24px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa0439b3904",
+                    "label": "Maximum",
+                    "name": "max",
+                    "type": "number",
+                    "instructions": "If empty 28px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_65fa2dd0df831",
+            "label": "Medium Font Size",
+            "name": "heading_medium",
+            "type": "group",
+            "instructions": "Set the medium heading minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa2dd0df832",
+                    "label": "Minimum",
+                    "name": "min",
+                    "type": "number",
+                    "instructions": "If empty 28px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa2dd0df833",
+                    "label": "Maximum",
+                    "name": "max",
+                    "type": "number",
+                    "instructions": "If empty 36px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_65fa2e2ddf834",
+            "label": "Large Font Size",
+            "name": "heading_large",
+            "type": "group",
+            "instructions": "Set the large heading minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa2e2ddf835",
+                    "label": "Minimum",
+                    "name": "min",
+                    "type": "number",
+                    "instructions": "If empty 36px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa2e2ddf836",
+                    "label": "Maximum",
+                    "name": "max",
+                    "type": "number",
+                    "instructions": "If empty 48px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_65fa2e3bdf837",
+            "label": "Extra Large Font Size",
+            "name": "heading_xlarge",
+            "type": "group",
+            "instructions": "Set the extra large heading minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa2e3bdf838",
+                    "label": "Minimum",
+                    "name": "min",
+                    "type": "number",
+                    "instructions": "If empty 48px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa2e3bdf839",
+                    "label": "Maximum",
+                    "name": "max",
+                    "type": "number",
+                    "instructions": "If empty 60px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_65fa2ef3170b5",
+            "label": "Buttons",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65fa2f11170b6",
+            "label": "Default Font Size",
+            "name": "button_default",
+            "type": "group",
+            "instructions": "Set the default button minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa2f11170b7",
+                    "label": "Minimum",
+                    "name": "min",
+                    "type": "number",
+                    "instructions": "If empty body font size will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa2f11170b8",
+                    "label": "Maximum",
+                    "name": "max",
+                    "type": "number",
+                    "instructions": "If empty body font size will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": ""
+                }
+            ]
+        },
+        {
+            "key": "field_65fa2fcd35e95",
+            "label": "Text",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65fa2fe235e96",
+            "label": "Text Small",
+            "name": "text_small",
+            "type": "group",
+            "instructions": "Set the small text minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa2fec35e97",
+                    "label": "Minimum",
+                    "name": "minimum",
+                    "type": "number",
+                    "instructions": "If empty 12px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa2ffe35e98",
+                    "label": "Maximum",
+                    "name": "maximum",
+                    "type": "number",
+                    "instructions": "If empty 14px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "key": "field_65fa302635e99",
+            "label": "Text Large",
+            "name": "text_large",
+            "type": "group",
+            "instructions": "Set the large text minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa302635e9a",
+                    "label": "Minimum",
+                    "name": "minimum",
+                    "type": "number",
+                    "instructions": "If empty 20px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa302635e9b",
+                    "label": "Maximum",
+                    "name": "maximum",
+                    "type": "number",
+                    "instructions": "If empty 24px will be used.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "key": "field_65fa3081157db",
+            "label": "Text Extra Large",
+            "name": "text_xlarge",
+            "type": "group",
+            "instructions": "Set the extra large text minimum and maximum font sizes.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_65fa3081157dc",
+                    "label": "Minimum",
+                    "name": "minimum",
+                    "type": "number",
+                    "instructions": "No default set if empty.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                },
+                {
+                    "key": "field_65fa3081157dd",
+                    "label": "Maximum",
+                    "name": "maximum",
+                    "type": "number",
+                    "instructions": "No default set if empty.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "px",
+                    "min": "",
+                    "max": "",
+                    "step": 1
+                }
+            ]
+        },
+        {
+            "key": "field_65f9e62b94f07",
+            "label": "Visual Composer",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_65f91fd7a8070",
+            "label": "Component Background Colors",
+            "name": "vc_component_bg_colors",
+            "type": "select",
+            "instructions": "Select which colors appear as dropdown options for various Visual Composer components. Leave empty for all available colors.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "primary": "Primary",
+                "primary-light": "Primary Light",
+                "primary-dark": "Primary Dark",
+                "secondary": "Secondary",
+                "secondary-light": "Secondary Light",
+                "secondary-dark": "Secondary Dark",
+                "tertiary": "Tertiary",
+                "tertiary-light": "Tertiary Light",
+                "tertiary-dark": "Tertiary Dark",
+                "gray": "Gray",
+                "gray-light": "Gray Light",
+                "gray-dark": "Gray Dark",
+                "white": "White",
+                "off-white": "Off White",
+                "black": "Black"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 1,
+            "ui": 1,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "acf-global"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1710984116
+}
