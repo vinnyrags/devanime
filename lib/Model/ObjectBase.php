@@ -1,6 +1,6 @@
 <?php
 
-namespace DevAnime\Models;
+namespace DevAnime\Model;
 
 use DevAnime\Support\Util;
 
