@@ -11,6 +11,15 @@ class AdminMenuController
     public function __construct()
     {
         add_action('admin_init', [$this, 'updateAdminMenu']);
+        add_filter('wp_prepare_themes_for_js', [$this, 'hideTheme']);
+    }
+
+    public function hideTheme($themes): array
+    {
+        if (isset($themes['devanime'])) {
+            unset($themes['devanime']);
+        }
+        return $themes;
     }
 
     public function updateAdminMenu()
