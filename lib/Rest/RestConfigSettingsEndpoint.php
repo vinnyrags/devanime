@@ -179,7 +179,7 @@ class RestConfigSettingsEndpoint extends RestEndpoint
             $menus['primary-navigation'] = $primaryNavigation;
         }
         if (!empty($footerNavigation = ConfigSettingsOptions::menuFooterNavigation())) {
-            $menus['primary-navigation'] = $footerNavigation;
+            $menus['footer-navigation'] = $footerNavigation;
         }
         if (!empty($additionalMenus = ConfigSettingsOptions::menuAdditional())) {
             $menus['additional-menus'] = $additionalMenus;
