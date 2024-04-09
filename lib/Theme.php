@@ -4,6 +4,7 @@ namespace DevAnime;
 
 use DevAnime\Controller;
 use DevAnime\Rest;
+use DevAnime\Vendor;
 
 /**
  * class Theme
@@ -34,6 +35,9 @@ class Theme
         Controller\Vendor\BuVersionsController::class,
         Rest\Controller\RestPageController::class,
     ];
+    protected array $components = [
+        Vendor\Acf\FieldType\NavMenu::class
+    ];
 
     public function __construct()
     {
@@ -43,6 +47,9 @@ class Theme
         }
         foreach (apply_filters('devanime/controllers', $this->controllers) as $Controller) {
             new $Controller();
+        }
+        foreach (apply_filters('devanime/components', $this->components) as $Component) {
+            new $Component();
         }
 
 //        add_filter('devanime/blacklist', function ($components) {
