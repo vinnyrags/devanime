@@ -40,6 +40,9 @@ use DevAnime\Model\OptionsBase;
  * @method static textSmall()
  * @method static textLarge()
  * @method static textXlarge()
+ * @method static menuPrimaryNavigation()
+ * @method static menuFooterNavigation()
+ * @method static menuAdditional()
  * @method static vcComponentBgColors()
  */
 class ConfigSettingsOptions extends OptionsBase
@@ -104,6 +107,37 @@ class ConfigSettingsOptions extends OptionsBase
             'min' => '',
             'max' => ''
         ],
+        'menu_primary_navigation' => '',
+        'menu_footer_navigation' => '',
+        'menu_additional' => [],
         'vc_component_bg_colors' => []
     ];
+
+    protected function getMenuPrimaryNavigation()
+    {
+        return !empty($menu_id = $this->get('menu_primary_navigation')) ?
+            wp_get_nav_menu_object($menu_id) : '';
+    }
+
+    protected function getMenuFooterNavigation()
+    {
+        return !empty($menu_id = $this->get('menu_footer_navigation')) ?
+            wp_get_nav_menu_object($menu_id) : '';
+    }
+
+    protected function getMenuAdditional()
+    {
+        if (empty($menus = $this->get('menu_additional'))) {
+            return [];
+        }
+        return array_filter(array_map(function($menu) {
+            if (!($MenuTerm = wp_get_nav_menu_object($menu['menu'])) instanceof \WP_Term) {
+                return false;
+            }
+            return [
+                'key' => $menu['key'],
+                'menu' => $MenuTerm
+            ];
+        }, $menus));
+    }
 }

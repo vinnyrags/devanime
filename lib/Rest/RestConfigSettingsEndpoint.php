@@ -11,7 +11,7 @@ use DevAnime\Rest\Support\RestEndpoint;
  */
 class RestConfigSettingsEndpoint extends RestEndpoint
 {
-    protected string $namespace = 'wp/v2';
+    protected string $namespace = 'v1';
 
     public function registerRoutes()
     {
@@ -28,6 +28,7 @@ class RestConfigSettingsEndpoint extends RestEndpoint
             $this->getHeading(),
             $this->getButton(),
             $this->getText(),
+            $this->getMenus(),
             $this->getVendor()
         ));
     }
@@ -168,6 +169,22 @@ class RestConfigSettingsEndpoint extends RestEndpoint
             $text['text-xlarge'] = $textXlarge;
         }
         return $text;
+    }
+
+    // TODO consider passing NavMenuDto
+    protected function getMenus(): array
+    {
+        $menus = [];
+        if (!empty($primaryNavigation = ConfigSettingsOptions::menuPrimaryNavigation())) {
+            $menus['primary-navigation'] = $primaryNavigation;
+        }
+        if (!empty($footerNavigation = ConfigSettingsOptions::menuFooterNavigation())) {
+            $menus['primary-navigation'] = $footerNavigation;
+        }
+        if (!empty($additionalMenus = ConfigSettingsOptions::menuAdditional())) {
+            $menus['additional-menus'] = $additionalMenus;
+        }
+        return $menus;
     }
 
     protected function getVendor(): array
