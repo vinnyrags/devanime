@@ -136,7 +136,10 @@ class ConfigSettingsOptions extends OptionsBase
             }
             return [
                 'key' => $menu['key'],
-                'menu' => $MenuTerm
+                'menu' => [
+                    'menu' => $MenuTerm,
+                    'items' => wp_get_nav_menu_items($MenuTerm)
+                ]
             ];
         }, $menus));
     }

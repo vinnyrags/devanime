@@ -176,10 +176,16 @@ class RestConfigSettingsEndpoint extends RestEndpoint
     {
         $menus = [];
         if (!empty($primaryNavigation = ConfigSettingsOptions::menuPrimaryNavigation())) {
-            $menus['primary-navigation'] = $primaryNavigation;
+            $menus['primary-navigation'] = [
+                'menu' => $primaryNavigation,
+                'items' => wp_get_nav_menu_items($primaryNavigation)
+            ];
         }
         if (!empty($footerNavigation = ConfigSettingsOptions::menuFooterNavigation())) {
-            $menus['footer-navigation'] = $footerNavigation;
+            $menus['footer-navigation'] = [
+                'menu' => $footerNavigation,
+                'items' => wp_get_nav_menu_items($footerNavigation)
+            ];
         }
         if (!empty($additionalMenus = ConfigSettingsOptions::menuAdditional())) {
             $menus['additional-menus'] = $additionalMenus;
